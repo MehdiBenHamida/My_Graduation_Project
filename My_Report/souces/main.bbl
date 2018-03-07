@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{cite1}
+Matei~Alexandru Zaharia.
+\newblock {\em An Architecture for Fast and General Data Processing on Large
+  Clusters}.
+\newblock PhD thesis, University of California, Berkeley, 2013.
+
+\bibitem{cite2}
+Devendra P.~Gadekar Harshawardhan S.~Bhosale.
+\newblock A review paper on big data and hadoop.
+\newblock {\em International Journal of Scientific and Research Publications},
+  (4), October 2014.
+
+\bibitem{cite7}
+Anca APOSTU Manole~VELICANU Elena Geanina~ULARU, Florina Camelia~PUICAN.
+\newblock Perspectives on big data and big data analytics.
+\newblock {\em Database Systems Journal}, 2012.
+
+\bibitem{cite16}
+Andrew Pavlo.
+\newblock A comparison of approaches to large-scale data analysis.
+\newblock {\em SIGMOD}, 2009.
+
+\bibitem{cite17}
+Devendra P.~Gadekar Harshawardhan S.~Bhosale.
+\newblock Big data processing using hadoop: Survey on scheduling.
+\newblock {\em International Journal of Science and Research (IJSR)}, 2014.
+
+\bibitem{cite}
+Doug Laney.
+\newblock Application delivery strategies.
+\newblock {\em META Group Inc.}, 2001.
+
+\bibitem{cite18}
+Daphne Lopez Revathi~Sundarsekar Gunasekaran~Manogaran, Chandu~Thota.
+\newblock Big data knowledge system in healthcare.
+\newblock {\em Internet of Things and Big Data Technologies for Next Generation
+  Healthcare}, 2017.
+
+\bibitem{cite10}
+Aaron Hart Michael~Berthold Rosaria~Silipo, Iris~Adae.
+\newblock Seven techniques for dimensionality reduction.
+\newblock {\em KNIME}, 2014.
+
+\bibitem{cite9}
+Jonathon Shlens.
+\newblock A tutorial on principal component analysis.
+\newblock {\em Institute for Nonlinear Science, University of California, San
+  Diego}, 2005.
+
+\bibitem{cite11}
+Vipin~Kumar Pang-Ning~Tan, Michael~Steinbach.
+\newblock {\em Introduction to Data Mining}.
+\newblock University of Minnesota, 2006.
+
+\bibitem{cite19}
+Landau~S. Everitt, B.S. and M.~Leese.
+\newblock {\em Cluster Analysis,}.
+\newblock Fourth edition, Arnold., 2001.
+
+\bibitem{cite20}
+B.F.J Manly.
+\newblock {\em Multivariate Statistical Methods: A primer}.
+\newblock Third edition, Chapman and Hall, 2005.
+
+\bibitem{cite21}
+Erik~G. Learned-Miller.
+\newblock Introduction to supervised learning.
+\newblock {\em University of Massachusetts, Amherst}, 2014.
+
+\bibitem{cite22}
+Alpaydin Ethem.
+\newblock {\em Introduction to Machine Learning}.
+\newblock MIT Press, 2010.
+
+\bibitem{cite12}
+Michaud~M. Minter~E.
+\newblock Using graphics to report evaluation results.
+\newblock {\em University of Wisconsin Cooperative Extension}, 2003.
+
+\bibitem{cite14}
+{\em Hadoop: big data analysis framework}.
+\newblock Tutorials Point, 2014.
+
+\bibitem{cite15}
+Dhruba Borthakur.
+\newblock Hadoop official documentation.
+\newblock {\em The Apache Software Foundation}, 2008.
+
+\bibitem{cite13}
+Sanjay Radia Robert~Chansler Konstantin~Shvachko, Hairong~Kuang.
+\newblock The hadoop distributed file system.
+\newblock {\em IEEE, Contemporary Computing (IC3), Sixth International
+  Conference}, 2010.
+
+\bibitem{cite23}
+Dhruba Borthakur.
+\newblock Hdfs design.
+\newblock {\em Haddop Official Documentation}, 2013.
+
+\end{thebibliography}

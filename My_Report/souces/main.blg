@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: bibliographie.bib
+Repeated entry---line 122 of file bibliographie.bib
+ : @inbook{cite18
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in cite2
+Too many commas in name 1 of "Elena Geanina ULARU, Florina Camelia PUICAN, Anca APOSTU, Manole VELICANU" for entry cite7
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Gunasekaran Manogaran, Chandu Thota, Daphne Lopez, Revathi Sundarsekar" for entry cite18
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Rosaria Silipo, Iris Adae, Aaron Hart, Michael Berthold" for entry cite10
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Everitt, B.S., Landau, S. and Leese, M." for entry cite19
+while executing---line 944 of file unsrt.bst
+Warning--empty author and editor in cite14
+Too many commas in name 1 of "Konstantin Shvachko, Hairong Kuang, Sanjay Radia, Robert Chansler" for entry cite13
+while executing---line 944 of file unsrt.bst
+(There were 6 error messages)

@@ -1,0 +1,81 @@
+\BOOKMARK [0][]{table.caption.5}{Introduction}{}% 1
+\BOOKMARK [0][]{chapter.6}{Project Overview}{}% 2
+\BOOKMARK [1][]{section.7}{Hosting Organism}{chapter.6}% 3
+\BOOKMARK [2][]{subsection.8}{Overview}{section.7}% 4
+\BOOKMARK [2][]{subsection.9}{Work Methodology}{section.7}% 5
+\BOOKMARK [1][]{section.11}{Project Description}{chapter.6}% 6
+\BOOKMARK [2][]{subsection.12}{Scope}{section.11}% 7
+\BOOKMARK [2][]{subsection.13}{Project Description}{section.11}% 8
+\BOOKMARK [0][]{chapter.15}{Preliminary Study}{}% 9
+\BOOKMARK [1][]{section.16}{State of the Art}{chapter.15}% 10
+\BOOKMARK [2][]{subsection.17}{Concepts of Big Data}{section.16}% 11
+\BOOKMARK [3][]{subsubsection.18}{Definitions}{subsection.17}% 12
+\BOOKMARK [3][]{subsubsection.19}{The 3-V Model}{subsection.17}% 13
+\BOOKMARK [3][]{subsubsection.20}{From 3-V to multi-V Model}{subsection.17}% 14
+\BOOKMARK [3][]{subsubsection.21}{Big Data Analysis}{subsection.17}% 15
+\BOOKMARK [3][]{subsubsection.23}{Required Infrastructure for Big Data}{subsection.17}% 16
+\BOOKMARK [2][]{subsection.24}{Data Mining Tools}{section.16}% 17
+\BOOKMARK [3][]{subsubsection.25}{Dimensionality Reduction Procedures}{subsection.24}% 18
+\BOOKMARK [3][]{subsubsection.26}{Clustering}{subsection.24}% 19
+\BOOKMARK [3][]{subsubsection.28}{Supervised Learning}{subsection.24}% 20
+\BOOKMARK [3][]{subsubsection.32}{Data Representation}{subsection.24}% 21
+\BOOKMARK [1][]{section.33}{Study of The Existing}{chapter.15}% 22
+\BOOKMARK [2][]{subsection.34}{Existing Tools}{section.33}% 23
+\BOOKMARK [3][]{subsubsection.35}{Relational Database Management System}{subsection.34}% 24
+\BOOKMARK [3][]{subsubsection.37}{Non Relational Database Management System}{subsection.34}% 25
+\BOOKMARK [3][]{subsubsection.40}{Data Warehouse}{subsection.34}% 26
+\BOOKMARK [3][]{subsubsection.42}{Data Processing Frameworks}{subsection.34}% 27
+\BOOKMARK [2][]{subsection.46}{Technical Specification}{section.33}% 28
+\BOOKMARK [1][]{section.48}{Technical Review}{chapter.15}% 29
+\BOOKMARK [0][]{chapter.50}{Parallel Architectures}{}% 30
+\BOOKMARK [1][]{section.51}{The Hadoop Distributed File System}{chapter.50}% 31
+\BOOKMARK [2][]{subsection.52}{Features of HDFS:}{section.51}% 32
+\BOOKMARK [2][]{subsection.53}{HDFS Architecture:}{section.51}% 33
+\BOOKMARK [2][]{subsection.56}{The File System Namespace}{section.51}% 34
+\BOOKMARK [3][]{subsubsection.57}{File Read and Write}{subsection.56}% 35
+\BOOKMARK [3][]{subsubsection.59}{Replica Placement}{subsection.56}% 36
+\BOOKMARK [3][]{subsubsection.60}{Communication Protocols}{subsection.56}% 37
+\BOOKMARK [1][]{section.61}{Spark: Framework for Parallel Execution}{chapter.50}% 38
+\BOOKMARK [2][]{subsection.62}{Features of Spark Apache}{section.61}% 39
+\BOOKMARK [2][]{subsection.63}{Components of Spark}{section.61}% 40
+\BOOKMARK [2][]{subsection.65}{Resilient Distributed Datasets}{section.61}% 41
+\BOOKMARK [2][]{subsection.66}{Map Reduce}{section.61}% 42
+\BOOKMARK [2][]{subsection.71}{Spark Architecture}{section.61}% 43
+\BOOKMARK [0][]{chapter.74}{Requirements Analysis and Specification}{}% 44
+\BOOKMARK [1][]{section.75}{Requirement Analysis}{chapter.74}% 45
+\BOOKMARK [2][]{subsection.76}{Identifying Actors}{section.75}% 46
+\BOOKMARK [2][]{subsection.78}{Functional requirements}{section.75}% 47
+\BOOKMARK [2][]{subsection.79}{Non-functional requirements}{section.75}% 48
+\BOOKMARK [1][]{section.80}{Requirement Specification}{chapter.74}% 49
+\BOOKMARK [2][]{subsection.81}{System Use Case}{section.80}% 50
+\BOOKMARK [2][]{subsection.84}{Activity Diagram}{section.80}% 51
+\BOOKMARK [3][]{subsubsection.85}{Administrator Activity Diagram}{subsection.84}% 52
+\BOOKMARK [3][]{subsubsection.87}{Client Activity Diagram}{subsection.84}% 53
+\BOOKMARK [3][]{subsubsection.89}{General User Activity Diagram}{subsection.84}% 54
+\BOOKMARK [0][]{chapter.92}{Design and Structure}{}% 55
+\BOOKMARK [1][]{section.93}{Global Design}{chapter.92}% 56
+\BOOKMARK [2][]{subsection.94}{Architectural Overview}{section.93}% 57
+\BOOKMARK [2][]{subsection.96}{Software Architecture}{section.93}% 58
+\BOOKMARK [1][]{section.98}{Detailed Design}{chapter.92}% 59
+\BOOKMARK [2][]{subsection.99}{Class Diagram}{section.98}% 60
+\BOOKMARK [2][]{subsection.101}{Sequences Diagrams}{section.98}% 61
+\BOOKMARK [3][]{subsubsection.102}{General Sequence Diagram}{subsection.101}% 62
+\BOOKMARK [3][]{subsubsection.104}{Optimum Communication scenario}{subsection.101}% 63
+\BOOKMARK [3][]{subsubsection.106}{Lost Query Scenario}{subsection.101}% 64
+\BOOKMARK [3][]{subsubsection.108}{Multi-Thread Communication Query Scenario}{subsection.101}% 65
+\BOOKMARK [0][]{chapter.111}{Implementation and Results}{}% 66
+\BOOKMARK [1][]{section.112}{Implementation Environment}{chapter.111}% 67
+\BOOKMARK [2][]{subsection.113}{Hardware Tools}{section.112}% 68
+\BOOKMARK [2][]{subsection.114}{Software Tools}{section.112}% 69
+\BOOKMARK [2][]{subsection.116}{Technological Choices}{section.112}% 70
+\BOOKMARK [1][]{section.118}{Results}{chapter.111}% 71
+\BOOKMARK [2][]{subsection.119}{Execution Results}{section.118}% 72
+\BOOKMARK [3][]{subsubsection.120}{Behavior with Regard to the Number of Values}{subsection.119}% 73
+\BOOKMARK [3][]{subsubsection.123}{Behavior with Regard to the Number of Nodes}{subsection.119}% 74
+\BOOKMARK [2][]{subsection.125}{Illustrations from the Realization}{section.118}% 75
+\BOOKMARK [1][]{section.131}{Project Timeline}{chapter.111}% 76
+\BOOKMARK [0][]{section*.133}{Conclusion}{}% 77
+\BOOKMARK [0][]{section*.133}{Bibliography}{}% 78
+\BOOKMARK [0][]{chapter.134}{Software \046 Technologies}{}% 79
+\BOOKMARK [0][]{chapter.135}{Achievements}{}% 80
+\BOOKMARK [0][]{chapter.143}{Principal Component Analysis}{}% 81

@@ -1,0 +1,262 @@
+\documentclass[a4paper]{report}
+\newcommand{\answerbox}[1][3\baselineskip]{
+    \noindent\framebox[\linewidth]{
+        \raisebox{0pt}[0pt][#1]{}
+    }\par \medskip
+}
+
+%====================== PACKAGES ======================
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{arabtex}
+\usepackage{multirow}
+\usepackage{utf8}
+%pour gérer les positionnement d'images
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{palatino}
+\usepackage[final]{pdfpages}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage[resetfonts]{cmap}
+\usepackage{fancyvrb}
+\begin{VerbatimOut}{OT1.cmap}
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: ProcSet (CIDInit)
+%%IncludeResource: ProcSet (CIDInit)
+%%BeginResource: CMap (TeX-OT1-0)
+%%Title: (TeX-OT1-0 TeX OT1 0)
+%%Version: 1.000
+%%EndComments
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo
+<< /Registry (TeX)
+/Ordering (OT1)
+/Supplement 0
+>> def
+/CMapName /TeX-OT1-0 def
+/CMapType 2 def
+1 begincodespacerange
+<00> <7F>
+endcodespacerange
+8 beginbfrange
+<00> <01> <0000>
+<09> <0A> <0000>
+<23> <26> <0000>
+<28> <3B> <0000>
+<3F> <5B> <0000>
+<5D> <5E> <0000>
+<61> <7A> <0000>
+<7B> <7C> <0000>
+endbfrange
+40 beginbfchar
+<02> <0000>
+<03> <0000>
+<04> <0000>
+<05> <0000>
+<06> <0000>
+<07> <0000>
+<08> <0000>
+<0B> <0000>
+<0C> <0000>
+<0D> <0000>
+<0E> <0000>
+<0F> <0000>
+<10> <0000>
+<11> <0000>
+<12> <0000>
+<13> <0000>
+<14> <0000>
+<15> <0000>
+<16> <0000>
+<17> <0000>
+<18> <0000>
+<19> <0000>
+<1A> <0000>
+<1B> <0000>
+<1C> <0000>
+<1D> <0000>
+<1E> <0000>
+<1F> <0000>
+<21> <0000>
+<22> <0000>
+<27> <0000>
+<3C> <0000>
+<3D> <0000>
+<3E> <0000>
+<5C> <0000>
+<5F> <0000>
+<60> <0000>
+<7D> <0000>
+<7E> <0000>
+<7F> <0000>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+%%EndResource
+%%EOF
+\end{VerbatimOut}
+%pour les informations sur un document compilé en PDF et les liens externes / internes
+\usepackage[hypertexnames=false,bookmarks=true,bookmarksopen=true,colorlinks=true,citecolor=black,linkcolor=black, urlcolor= black, bookmarksdepth=3]{hyperref}
+%pour la mise en page des tableaux
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{mathtools}
+
+%pour utiliser \floatbarrier
+%\usepackage{placeins}
+%\usepackage{floatrow}
+%espacement entre les lignes
+\usepackage{setspace}
+%modifier la mise en page de l'abstract
+\usepackage{abstract}
+%police et mise en page (marges) du document
+\usepackage[T1]{fontenc}
+%Options: Sonny, 1Lenny, Glenn, 2Conny, 3Rejne, Bjarne, Bjornstrup
+\usepackage[Lenny]{fncychap}
+\usepackage[toc,page]{appendix}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+%Pour les galerie d'images
+\usepackage{subfig}
+
+\usepackage{fancyhdr}
+
+\setcode{utf8}
+\pagestyle{fancy}
+%====================== INFORMATION ET REGLES ======================
+
+%rajouter les numérotation pour les \paragraphe et \subparagraphe
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\hypersetup{							% Information sur le document
+pdfauthor = {Mèhdi Ben Hamida
+		},			% Auteurs
+pdftitle = {Big Data Management for Manufacturing Intelligence Application},			% Titre du document
+pdfsubject = {Final Graduation Project Report},		% Sujet
+pdfkeywords = {Big Data, Spark, HDFS, Data Analysis},	% Mots-clefs
+pdfstartview={FitH},					% ajuste la page à la largueur de l'écran
+pdfcreator = {MikTeX},% Logiciel qui a crée le document
+pdfproducer = {National School of Computer Sciences}} % Société avec produit le logiciel
+%title style declaration 
+
+%======================== DEBUT DU DOCUMENT ========================
+
+\begin{document}
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+ \newcommand{\option}[1]{\texttt{\itshape#1}}
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+
+%page de garde
+\input{./title.tex}
+
+%page blanche
+
+~\\
+~\\
+~\\
+~\\
+
+
+
+\begin{center}
+~\Large{Signature \& Stamp:} \\
+\end{center}
+~\Large{National School of Computer Sciences}\\
+\answerbox[12\baselineskip]
+~\Large{Integration Objects}\\
+\answerbox[12\baselineskip]
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+\large
+\input{./abstract.tex}
+\thispagestyle{empty}
+\newpage
+\input{./proverb.tex}
+\thispagestyle{empty}
+\newpage
+%\input{./glossaire.tex}
+\pagenumbering{roman}
+%------- les entete
+\renewcommand{\headrulewidth}{1pt}
+\rhead{}
+\lhead{\rightmark} 
+\chead{} 
+\renewcommand{\footrulewidth}{1pt}
+\lfoot{\leftmark} 
+\cfoot{}
+\rfoot{\thepage}
+
+
+
+
+
+\newpage
+\input{acknowledgement.tex}
+\input{ab.tex}
+\tableofcontents
+\listoffigures
+\listoftables
+\large
+%ne pas numéroter le sommaire
+
+
+
+%espacement entre les lignes d'un tableau
+\renewcommand{\arraystretch}{1.5}
+
+%====================== INCLUSION DES PARTIES ======================
+
+
+\newpage
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\newpage
+\newpage
+\newpage
+\thispagestyle{empty}
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+%------- les entete
+\renewcommand{\headrulewidth}{1pt}
+\rhead{}
+\lhead{\rightmark} 
+\chead{} 
+\renewcommand{\footrulewidth}{1pt}
+\lfoot{\leftmark} 
+\cfoot{}
+\rfoot{\thepage}
+%including the chapters 
+\input{./introduction.tex}
+\input{./chaptre1.tex} 
+\input{./chaptre2.tex}
+\input{./chapter2prime.tex}
+\input{./chaptre3.tex}
+\input{./chaptre4.tex}
+\input{./chaptre5.tex}
+\input{./conclusion.tex}
+
+%choix du style de la biblio
+%\bibliographystyle{plain}
+%inclusion de la biblio
+\bibliographystyle{unsrt}
+\bibliography{bibliographie}
+\addcontentsline{toc}{chapter}{Bibliography}
+\input{./appendix.tex}
+%\bibliography{./bibliographie.bib}
+%voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
+
+\end{document}

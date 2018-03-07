@@ -1,0 +1,53 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Integration Objects Work Methodology\relax }}{5}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Data Analysis Process\relax }}{9}{figure.caption.22}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Different Ways of Clustering the same Set of Points\relax }}{12}{figure.caption.27}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Linear Regression Representation\relax }}{14}{figure.caption.29}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Classification Process\relax }}{15}{figure.caption.30}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Data Analysis Techniques\relax }}{16}{figure.caption.31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces HDFS Architecture\relax }}{25}{figure.caption.54}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interaction between a HDFS Client and Cluster\relax }}{26}{figure.caption.55}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Data Pipeline During Block Construction\relax }}{28}{figure.caption.58}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The Spark Stack\relax }}{29}{figure.caption.64}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Iterative Operations on MapReduce\relax }}{31}{figure.caption.67}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Interactive operations on MapReduce\relax }}{31}{figure.caption.68}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Iterative operations on Spark RDD\relax }}{32}{figure.caption.69}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Interactive operations on Spark RDD\relax }}{32}{figure.caption.70}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Spark Architecture\relax }}{33}{figure.caption.72}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Inheritance Relationship between Actors\relax }}{34}{figure.caption.77}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces General Use Case\relax }}{36}{figure.caption.82}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Administrator Activity Diagram\relax }}{38}{figure.caption.86}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Client Activity Diagram\relax }}{39}{figure.caption.88}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces General user Activity Diagram\relax }}{40}{figure.caption.90}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces General Architecture of the System\relax }}{42}{figure.caption.95}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Packages Diagram\relax }}{43}{figure.caption.97}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class Diagram\relax }}{46}{figure.caption.100}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces General Sequence Diagram\relax }}{48}{figure.caption.103}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Optimum Communication scenario\relax }}{49}{figure.caption.105}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Lost Query Scenario\relax }}{50}{figure.caption.107}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Multi-Thread Communication Query Scenario\relax }}{50}{figure.caption.109}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Execution Time test\relax }}{53}{figure.caption.121}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Memory Usage test\relax }}{54}{figure.caption.122}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Time Performance Vs. Number of Nodes\relax }}{54}{figure.caption.124}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Data File Manger\relax }}{55}{figure.caption.126}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces PCA Results Chart\relax }}{56}{figure.caption.127}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Kmeans Results Chart\relax }}{56}{figure.caption.128}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Linear Regression Results Chart\relax }}{57}{figure.caption.129}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Background Service Server Execution\relax }}{57}{figure.caption.130}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Project Timeline\relax }}{58}{figure.caption.132}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Register Page Capture\relax }}{64}{figure.caption.136}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Login Page Capture\relax }}{65}{figure.caption.137}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Load Page Capture\relax }}{65}{figure.caption.138}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Select Algorithm Page Capture\relax }}{66}{figure.caption.139}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Set Algorithm Parameters Page Capture\relax }}{66}{figure.caption.140}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Set chart Parameters Page Capture\relax }}{67}{figure.caption.141}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Result Chart Capture\relax }}{67}{figure.caption.142}
+\addvspace {10\p@ }
