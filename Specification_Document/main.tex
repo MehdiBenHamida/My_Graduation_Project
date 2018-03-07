@@ -1,0 +1,246 @@
+\documentclass[a4paper]{report}
+\newcommand{\answerbox}[1][3\baselineskip]{%
+    \noindent\framebox[\linewidth]{%
+        \raisebox{0pt}[0pt][#1]{}%
+    }\par\medskip%
+}
+
+%====================== PACKAGES ======================
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+%pour gérer les positionnement d'images
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+%pour les informations sur un document compilé en PDF et les liens externes / internes
+\usepackage[hypertexnames=false,bookmarks=true,bookmarksopen=true,colorlinks=true,linkcolor=black, urlcolor= black, bookmarksopenlevel=0,bookmarksdepth=3]{hyperref}
+%pour la mise en page des tableaux
+\usepackage{array}
+\usepackage{tabularx}
+%pour utiliser \floatbarrier
+%\usepackage{placeins}
+%\usepackage{floatrow}
+%espacement entre les lignes
+\usepackage{setspace}
+%modifier la mise en page de l'abstract
+\usepackage{abstract}
+%police et mise en page (marges) du document
+\usepackage[T1]{fontenc}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+%Pour les galerie d'images
+\usepackage{subfig}
+\usepackage{fancyhdr}
+\usepackage{palatino}
+\pagestyle{fancy}
+%====================== INFORMATION ET REGLES ======================
+
+
+%rajouter les numérotation pour les \paragraphe et \subparagraphe
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\hypersetup{							% Information sur le document
+pdfauthor = {Mèhdi Ben Hamida},			% Auteurs
+pdftitle = {Big Data Management for Manufacturing Intelligence Application},			% Titre du document
+pdfsubject = {Software Requirements Specification},		% Sujet
+pdfkeywords = {Big Data, Spark, HDFS, Data mining},	% Mots-clefs
+pdfstartview={FitH}}					% ajuste la page à la largueur de l'écran
+%pdfcreator = {MikTeX},% Logiciel qui a crée le document
+%pdfproducer = {}} % Société avec produit le logiciel
+
+%======================== DEBUT DU DOCUMENT ========================
+
+\begin{document}
+
+%régler l'espacement entre les lignes
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+
+%page de garde
+\input{./title.tex}
+
+%page blanche
+
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+
+
+\begin{center}
+~\Large{Signature \& stamp:} \\
+\answerbox[18\baselineskip]
+\end{center}
+
+%ne pas numéroter cette page
+\thispagestyle{empty}
+
+
+\newpage
+\large
+\thispagestyle{empty}
+%\input{./abstract.tex}
+\thispagestyle{empty}
+%\input{./glossaire.tex}
+\pagenumbering{roman}
+%------- les entete
+\renewcommand{\headrulewidth}{1pt}
+\rhead{National School of Computer Sciences}
+\lhead{ENSI} 
+\chead{} 
+\renewcommand{\footrulewidth}{1pt}
+\lfoot{Software Requirements Specification} 
+\cfoot{}
+\rfoot{\thepage}
+%-------les tables
+\Large
+\tableofcontents
+
+
+%ne pas numéroter le sommaire
+
+
+
+%espacement entre les lignes d'un tableau
+\renewcommand{\arraystretch}{1.5}
+
+%====================== INCLUSION DES PARTIES ======================
+
+~
+
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\pagenumbering{arabic}
+\setcounter{page}{0}
+\newpage
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+\chapter{Introduction}
+\section{Purpose}
+
+This document is the software requirements specification for a design and implementation of
+a Big Data Management for Manufacturing Intelligence Application. Throughout this document we will define the project's context and present it.
+This document will specify the project's requirements, the working environment and the estimated plan.
+
+\section{Scope}
+
+This project is a requirement for the final year in the \textbf{National School of Computer Science} in order to obtain the National Diploma of a Software Engineer. It will be achieved during an internship
+at \textbf{Integration Objects} that will last 4 months starting from February $1^{st}$, 2017 to May $31^{th}$, 2017.
+\section{Hosting Organism}
+
+\textbf{Integration Objects} is a world-leading manufacturing tech solution provider for knowledge
+management, automation, plant performance management, decision support, and system connectivity
+for the process, power, and utilities industries around the globe. The company provides advanced
+software solution software for multinational companies in the oil and gas industry to empower
+manufactories operations and increase its efficiency. \textbf{Integration Objects} is \textbf{Microsoft} gold partner
+and a member of the \textbf{OPC Foundation}, \textbf{MIMOSA} and \textbf{ISA}.
+\section{General Context}
+
+\textbf{KnowledgeNet Analytics} is an out of the box data analysis software product designed to meet operations needs in terms of knowledge mining in order to unlock hidden knowledge and profits within plant historical data. \textbf{KnowledgeNet Analytics} helps analyzing and investigating the plant process behavior and states, identifying opportunities to increase operational efficiency and reliability, and predicting abnormal conditions. One of the known issues in this field is how to manage huge volumes of data in term of storage, algorithms optimizations and presentation. The purpose of this project is to study and provide the best way for big data management.
+\section{Project Description}
+
+The main objective of this project is to:
+\begin{itemize}
+\item Perform a literature review to understand the project scope
+\item Engineer the best technical solution to load and manage huge volumes of data into the platform
+\item Apply standard operations such as matrix operations and complex algorithms (such as PCA (Principal Components Analysis) and PLS (Partial Least Square), etc.) using the best solution for big data
+\item Compare results with other products
+\end{itemize}
+\chapter{Requirements Specification}
+\section{Functional requirements}
+
+The delivered application consists on designing and implementing Client / Server application that should satisfy the specific functionalities listed below:
+\begin{itemize}
+\item The system must offer to the user the possibility to load big data from different sources into HDFS. The user is not coming from An IT background; all command lines should be hidden behind a Graphical User Interface. 
+\item The system allows user to apply on large volume of data several data mining algorithms such as:
+\begin{itemize}
+\item Principal components analysis 
+\item Linear Model
+\item K-Means
+\end{itemize}
+\item The User should be able to visualize algorithm results in different interactive forms (Charts, Graphics, data visualizations, grids …)
+\end{itemize}
+\section{Non-functional requirements}
+
+While achieving the functional requirements, the solution should satisfy the following non functional
+requirements:
+\begin{itemize}
+\item \textbf{Scalability:} The modularity and extensibility of the application architecture in case of the addition of new services. In our case, when
+the size or volume of data becomes larger or the number of servers increase, the application should guarantee a regular behaviour.
+\item \textbf{Ease of use:} The application must have a user-friendly and ergonomic interface.
+\item \textbf{Security:} The data storage should be far from being accessed by an unwanted user. Every operation of access should be preceded by an authentication. Data storage servers should be able to provide disponibility of the data when required.
+\item \textbf{Documentation:} The solution should be well-documented in order to provide the best use for the costumer.
+\end{itemize}
+\chapter{Constraints}
+\section{Environment}
+\subsection{Hardware environment}
+
+To achieve this work we used a personal computer with the following characteristics:\\	
+{\bf Workstation :}\\
+Band: Laptop HP Probook 450 g3\\
+Processor: Intel Core i7 CPU\\
+Memory: 8,00GO of RAM\\
+Operating system: Windows 10.
+
+\subsection{Software environment}
+
+To achieve this work we have started by installing the following software:
+\begin{itemize}
+\item \textbf{Microsoft Visual Studio:}Microsoft Visual Studio is an integrated development environment provided by Microsoft. This IDE has a rich set
+of tools that facilitates web applications, web sites, web services and computer programs
+development. Moreover, Microsoft visual studio has very
+\item \textbf{Spark:} Apache Spark is a fast and general engine for large-scale data processing. Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and spark Streaming. Spark extends its predecessors with in-memory processing. Its Resilient Distributed Dataset (RDD) abstraction enables developers to materialize any point in a processing pipeline into memory across the cluster, meaning that future steps that want to deal with the same data set need not recompute it or reload it from disk. Sparks runs on Hadoop, Mesos, standalone, or in the cloud.
+\item \textbf{Hadoop Distributed File System (HDFS:)} HDFS is a distributed file system that provides high-performance access to data across Hadoop clusters. Like other Hadoop-related technologies, HDFS has become a key tool for managing pools of big data and supporting big data analytics applications.
+\end{itemize}
+\section{Plan}
+
+During these four months, starting from February $1^{st}$, 2017 and ending in May $31^{th}$, 2017, the
+project will follow the plan illustrated in the figure below. This plan represents the important tasks
+distribution during the next sixteen weeks of work. This plan is not final, depending on the work evolution, some changes may happen.
+\begin{table}[!h]
+\begin{center}
+\caption{The Project Plan}
+\includegraphics[width=17cm,height=5cm]{Plan.png}
+\end{center}
+%légende de l'image
+
+\end{table}
+\chapter{Conclusion}
+Through this software requirements specification we tried to present a reference for the next steps
+during the project’s development process. Considering the work progress, we will do our best to be
+faithful to the specification characterized above.
+%\input{./introduction.tex}
+
+%\input{./presentation.tex}
+
+%\input{./existant.tex}
+ 
+%\input{./besoins.tex}
+
+%\input{./conception.tex}
+
+%\input{./resultats.tex}
+
+%\input{./bilan.tex}
+
+%\input{./annexes.tex}
+
+\newpage
+
+%récupérer les citation avec "/footnotemark"
+\nocite{*}
+
+%choix du style de la biblio
+\bibliographystyle{plain}
+%inclusion de la biblio
+%\bibliography{bibliographie.bib}
+%voir wiki pour plus d'information sur la syntaxe des entrées d'une bibliographie
+
+\end{document}

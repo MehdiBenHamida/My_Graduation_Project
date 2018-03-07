@@ -1,0 +1,52 @@
+\chapter*{Annexe A}
+\addcontentsline{toc}{chapter}{Annexe A}
+
+%changer le format des sections, subsections pour apparaittre sans le num de chapitre
+\makeatletter
+\renewcommand{\thesection}{\@arabic\c@section}
+\makeatother
+
+%recommencer la numérotation des section à "1"
+\setcounter{section}{0}
+
+Autre que le projet développé au sein de l’OACA (Office d’Aviation Civile et des Aéroports), notre tâche était aussi d’effectuer des opérations préventives pour maintenir  le système fonctionnel. Cette annexe est consacrée pour énumérer les opérations à faire pour le système ADAMS.
+\section*{Ce qu’il faut savoir faire sur l’ADAMS}
+
+\begin{itemize}
+\item Arrêt et démarrage d’un PC et de l’application AFTN.\\
+\item Dépannage d’une imprimante (réinstallation, bourrage, changement de ruban, …). \\
+\item Basculement onduleur sur batterie et retour sur Secteur. \\
+\item Méthode de réclamation FR/RNIS. \\
+\item Test de continuité d’une ligne. \\
+\item Contrôle de la ligne Frame Relay.\\
+\item Contrôle de la ligne RNIS. \\
+\item Interprétation des voyants  des Modem.\\
+\end{itemize}
+
+\section*{Tâches quotidiennes}
+\begin{itemize}
+\item Vérifier l’état général.  \\
+\item Faire l’archivage des données sur un CDROM : Il y a 3 fichiers essentiels qu’il faut copier (archive-out, ms,  event). Il ya une copie virtuelle sur un pc (on ne copie pas directement du serveur ADAMS) dont on prend une copie avec un décalage de deux jours et après avoir copié ce CDROM on fait une autre copie sur le PC  backup.\\
+\item Vérifier l’état général des onduleurs.\\
+\item Vérifier le système Insight Manager (compte rendu sur l’état hard et soft).\\
+\item Vérifier la synchronisation du TMCS (Technical maintenance control system) : faire la synchronisation du TMCS selon GMT.\\
+\item Vérifier le serveur actif (tu-cc1 ou tu-cc2) : il s’agit d’une commande linux sur le PC  backup grâce à une application « putty.exe », on introduit le login et le mot de passe et la commande « CLUSTAT ». \\
+\item Vérifier le routeur actif : vérification visuelle. \\
+\item Vérifier la climatisation.\\
+\item Vérifier les lignes RNIS: on tape la commande « telnet tu-rt1 » sur l’invite commande puis on tape « sh isdn active » qui affiche les lignes RNIS qui sont fonctionnelles.\\
+\item Redémarrer les transcodeurs: il faut toujours les redémarrer quand ils sont à l’état bas.\\
+\end{itemize}
+
+\section*{Tâches hebdomadaires}
+\begin{itemize}
+\item Vérifier le remplissage des disques système: c’est une commande « df-k » qui  indique automatiquement la taille des disques.\\
+\item Tester les lignes RNIS: qui consiste à désactiver le Frame Relay au niveau soft.\\
+\item Redémarrer le PC TMCS.
+\end{itemize}
+
+
+\section*{Tâches mensuelles}
+\begin{itemize}
+\item Tester les onduleurs: La maintenance de l’onduleur s’effectue tous les trente jours, en coupant le secteur afin de vérifier son bon fonctionnement et pour tester l’état des batteries. \\
+\item Mettre à jour l’antivirus.
+\end{itemize}
